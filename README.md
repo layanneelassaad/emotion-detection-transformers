@@ -70,6 +70,13 @@ python src/eval_all.py \
 - Surprise is fragile and often confused with Fear (contextual overlap)
 
 **Error patterns:**
+<p align="center">
+  <img src="results/confusion-matrices.png" alt="Train top emotion pairs" width="60%">
+</p>
+<p align="center">
+  Confusion Matrices for BERT Predictions.
+</p>
+
 - Ambiguous disbelief phrases (e.g., “I can’t believe this happened!”) were often scored as Fear rather than Surprise. Fear tends to be over-predicted, with BERT showing high recall but low precision on this class.
 - Very short, abrupt expressions of Anger were missed or labeled Neutral. Anger is under-predicted, especially for short sentences that lack dense lexical cues.
 - Surprise shows low precision/recall and confuses with Fear/Joy in celebratory or unexpected contexts. Excited Joy sometimes drifted into Surprise.
