@@ -1,0 +1,9 @@
+torch
+transformers>=4.45.2
+datasets
+evaluate
+accelerate
+pandas
+numpy
+scikit-learn
+matplotlib

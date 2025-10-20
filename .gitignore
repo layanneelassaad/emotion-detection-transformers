@@ -1,0 +1,15 @@
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.env
+.DS_Store
+logs*/
+runs*/
+results_*/final_model/
+results_*/checkpoint-*/
+results_bart/
+results_bert/
+results_gpt/
+*.bin
+*.pt
+*.ckpt
